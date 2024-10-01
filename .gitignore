@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Vercel build files
+/.vercel
+
+# Editor configuration files
+/.vscode/
+/.vscode/settings.json
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Firebase configuration
+.firebase/
+.firebase.json
+.firebaserc
+.storage.rules
+firebase.js
+
+# Vite build output and related files
+/vite-react/public/vite.svg
+/vite-react/src/assets/react.svg
+/vite-react/.gitignore
+/vite-react/eslint.config.js
+/vite-react/index.html
+/vite-react/package.json
+/vite-react/tsconfig.app.json
+/vite-react/tsconfig.json
+/vite-react/tsconfig.node.json
+/vite-react/vite.config.ts
+
+# Ignore any transpiled or compiled TypeScript files if needed
+/vite-react/src/vite-env.d.ts
+
+# Miscellaneous
+/cors.json
+
+.gitignore
+.src/firebase.js
